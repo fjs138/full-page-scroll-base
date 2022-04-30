@@ -1,7 +1,7 @@
 # full-page-scroll-base
 a full-page-scroll effect website base to build upon
 ## The Goal
-Create a starting base for a simple website using snap scrolling with html/css.
+Create a starting base for a simple website using snap scrolling with html/css. This could be useful for rapid prototyping or learning purposes for other coders.
 
 ## Deployment
 ![full-page-scroll-base.gif](full-page-scroll-base.gif) <br>
