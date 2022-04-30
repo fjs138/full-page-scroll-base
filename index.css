@@ -5,10 +5,10 @@
   color: whitesmoke;
 }
 
-.main{  scroll-snap-type:y mandatory;
+.main { /* container for three pages */
+  scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
-
 }
 
 .page {
@@ -16,11 +16,19 @@
   background-color: seashell;
   justify-content: center;
   display: flex;
-  scroll-snap-align:start;
+  scroll-snap-align: start;
 }
 
-#one{background-color: #17bebb}
-#two{background-color: #2e282a}
-#three{background-color: #cd5334}
+#one {
+  background-color: #17bebb;
+}
+#two {
+  background-color: #2e282a;
+}
+#three {
+  background-color: #cd5334;
+}
 
-.heading{padding-top: 1em}
+.heading {
+  padding-top: 1em;
+}
