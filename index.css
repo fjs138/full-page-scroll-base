@@ -5,11 +5,18 @@
   color: whitesmoke;
 }
 
+.main{  scroll-snap-type:y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+
+}
+
 .page {
   height: 100vh;
   background-color: seashell;
   justify-content: center;
   display: flex;
+  scroll-snap-align:start;
 }
 
 #one{background-color: #17bebb}
