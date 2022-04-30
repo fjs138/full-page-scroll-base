@@ -9,7 +9,7 @@ Create a starting base for a simple website using snap scrolling with html/css.
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7cbbcbba-57ff-4e07-92b5-5bd33e9189f5/deploy-status)](https://app.netlify.com/sites/full-page-scroll-base/deploys)
 
 [Live deployment here!](https://full-page-scroll-base.netlify.app/)
-## Lessons Learned
+## Key Points
 * The scroll-snap-type CSS property sets how strictly snap points are enforced on the scroll container in case there is one. Can be none, mandatory, or proximity.
 * The overflow-y property specifies whether to clip the content, add a scroll bar, or display overflow content of a block-level element, when it overflows at the top and bottom edges.
 * The scroll-snap-align property specifies the box's snap position as an alignment of its snap area (as the alignment subject) within its snap container's snapport (as the alignment container). The two values specify the snapping alignment in the block axis and inline axis, respectively. If only one value is specified, the second value defaults to the same value.
